@@ -13,6 +13,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" description="width=device-width, initial-scale=1.0" />
         <meta name="description" description="Tienda en linea de platzi en next.js" />
         <title>Reactshop</title>
+        <link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
       </Head>
       <AppContext.Provider value={initialState}>
         <Header />

@@ -12,9 +12,7 @@ const useInitialState = () => {
   const addToCart = (payload) => {
     setState({
       ...state,
-      cart: state.cart.includes(payload)
-        ? state.cart
-        : [...state.cart, payload],
+      cart: state.cart.includes(payload) ? state.cart : [...state.cart, payload],
     });
   };
 

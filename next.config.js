@@ -1,17 +1,6 @@
 module.exports = {
   reactStrictMode: true,
-  env: {
-    customKey: 'customValue'
+  images: {
+    domains: ['placeimg.com', 'images.pexels.com']
   },
-  basePath: '/dist',
-  compress: true,
-  async redirects(){
-    return [
-      { 
-        source: '/hola',
-        destination: 'https://gndx.dev',
-        permanent: true,
-      }
-    ]
-  }
-}
+};
